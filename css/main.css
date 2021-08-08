@@ -4,48 +4,32 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
 
     @font-face {
         font-family: 'Fedra Sans Pro';
-        src: url('./fonts/FedraSansPro-Normal.eot');
-        src: url('./fonts/FedraSansPro-Normal.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/FedraSansPro-Normal.woff2') format('woff2'),
-        url('./fonts/FedraSansPro-Normal.woff') format('woff'),
-        url('./fonts/FedraSansPro-Normal.ttf') format('truetype'),
-        url('./fonts/FedraSansPro-Normal.svg#FedraSansPro-Normal') format('svg');
+        src: url('./fonts/FedraSansPro-Normal.ttf') format('truetype');
+        src: local('Fedra Sans Pro Normal'), local('FedraSansPro-Normal');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Fedra Sans Pro';
-        src: url('./fonts/FedraSansPro-Medium.eot');
-        src: url('./fonts/FedraSansPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/FedraSansPro-Medium.woff2') format('woff2'),
-        url('./fonts/FedraSansPro-Medium.woff') format('woff'),
-        url('./fonts/FedraSansPro-Medium.ttf') format('truetype'),
-        url('./fonts/FedraSansPro-Medium.svg#FedraSansPro-Medium') format('svg');
+        src: url('./fonts/FedraSansPro-Medium.ttf') format('truetype');
+        src: local('Fedra Sans Pro Medium'), local('FedraSansPro-Medium');
         font-weight: 500;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Fedra Sans Pro';
-        src: url('./fonts/FedraSansPro-Bold.eot');
-        src: url('./fonts/FedraSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/FedraSansPro-Bold.woff2') format('woff2'),
-        url('./fonts/FedraSansPro-Bold.woff') format('woff'),
-        url('./fonts/FedraSansPro-Bold.ttf') format('truetype'),
-        url('./fonts/FedraSansPro-Bold.svg#FedraSansPro-Bold') format('svg');
+        src: url('./fonts/FedraSansPro-Bold.ttf') format('truetype');
+        src: local('Fedra Sans Pro Bold'), local('FedraSansPro-Bold');
         font-weight: bold;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Fedra Sans Pro';
-        src: url('./fonts/FedraSansPro-Light.eot');
-        src: url('./fonts/FedraSansPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/FedraSansPro-Light.woff2') format('woff2'),
-        url('./fonts/FedraSansPro-Light.woff') format('woff'),
-        url('./fonts/FedraSansPro-Light.ttf') format('truetype'),
-        url('./fonts/FedraSansPro-Light.svg#FedraSansPro-Light') format('svg');
+        src: url('./fonts/FedraSansPro-Light.ttf') format('truetype');
+        src: local('Fedra Sans Pro Light'), local('FedraSansPro-Light');
         font-weight: 300;
         font-style: normal;
     }
@@ -54,49 +38,56 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 100;
-        src: url('./fonts/AlegreyaSansSC-Thin');
+        src: url('./fonts/AlegreyaSansSC-Thin.ttf') format('truetype');
+        src: local('Alegreya Sans SC Thin'), local('AlegreyaSansSC-Thin'); 
     }
 
     @font-face {
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 300;
-        src: url('./fonts/AlegreyaSansSC-Light');
+        src: url('./fonts/AlegreyaSansSC-Light.ttf') format('truetype');
+        src: local('Alegreya Sans SC ASDF'), local('AlegreyaSansSC-ASDF'); 
     }
 
     @font-face {
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 400;
-        src: url('./fonts/AlegreyaSansSC-Regular');
+        src: url('./fonts/AlegreyaSansSC-Regular.ttf') format('truetype');
+        src: local('Alegreya Sans SC Regular'), local('AlegreyaSansSC-Regular'); 
     }
 
     @font-face {
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 500;
-        src: url('./fonts/AlegreyaSansSC-Medium');
+        src: url('./fonts/AlegreyaSansSC-Medium.ttf') format('truetype');
+        src: local('Alegreya Sans SC Medium'), local('AlegreyaSansSC-Medium'); 
     }
 
     @font-face {
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 700;
-        src: url('./fonts/AlegreyaSansSC-Bold'); 
+        src: url('./fonts/AlegreyaSansSC-Bold.ttf') format('truetype'); 
+        src: local('Alegreya Sans SC Bold'), local('AlegreyaSansSC-Bold'); 
     }
 
     @font-face {
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 800;
-        src: url('.fonts/AlegreyaSansSC-ExtraBold.ttf');
+        src: url('.fonts/AlegreyaSansSC-ExtraBold.ttf') format('truetype');
+        src: local('Alegreya Sans SC ExtraBold'), local('AlegreyaSansSC-ExtraBold'); 
     }
 
     @font-face {
         font-family: 'Alegreya Sans SC';
         font-style: normal;
         font-weight: 900;
-        src: url('./fonts/AlegreyaSansSC-Black.ttf');
+        src: url('./fonts/AlegreyaSansSC-Black.ttf') format('truetype');
+        src: local('Alegreya Sans SC Black'), local('AlegreyaSansSC-Black'); 
     }
 
 
