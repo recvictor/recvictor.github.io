@@ -204,6 +204,12 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
         margin: 0 auto;
     }
 
+    .img-container {
+        text-align: center;
+        display: block;
+        object-fit: contain;
+    }
+
     h1, h2, h3, h4 {
         font-family: 'Alegreya Sans SC', sans-serif;
         font-size: 2em;
